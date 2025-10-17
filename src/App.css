@@ -1,0 +1,262 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  text-align: center;
+  background-image: url('/country_outdoors.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.title {
+  color: white;
+  font-size: 30px;
+  z-index: 100;
+  text-align: center;
+}
+.header {
+  position: relative;
+  bottom: 150px;
+}
+.header-1 {
+  position: relative;
+  top: 30px;
+}
+
+.order-title {
+  color: white;
+  margin-top: -150px;
+}
+
+.order-title-1 {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+.title-product {
+  color: white;
+  font-size: 20px;
+}
+.text-title {
+  color: white;
+  font-size: 20px;
+}
+.total-tab {
+  margin-top: 20px;
+}
+
+.text-title-quantity {
+  color: white;
+  font-size: 17px;
+  font-weight: 100;
+  margin-top: 20px;
+}
+.bottom-gallery {
+  margin-bottom: 90px;
+}
+.button-dimensions {
+  margin-top: 50px;
+}
+.credit-card-info {
+  margin: 20px;
+  color: white;
+} 
+.email-field {
+  border: 18px;
+  font-size: 20px;
+}
+
+.calendar-font {
+  color: white;
+}
+
+.MuiPickersPopper-root {
+  z-index: 1500 !important;
+}
+
+.date-picker {
+  overflow: visible !important;
+  position: relative !important;
+}
+
+.MuiDatePicker-root,
+.MuiDateCalendar-root {
+  pointer-events: auto !important;
+}
+
+.MuiInputBase-input {
+  background-color: white;         
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  margin: 20px;
+}
+
+
+.MuiInputLabel-root {
+  color: #555;
+}
+
+/* Label when focused */
+.MuiInputLabel-root.Mui-focused {
+  color: #1976d2;          /* primary blue by default */
+}
+
+/* Calendar Day Styles */
+.MuiPickersDay-root {
+  color: #333;             /* default day text */
+}
+
+/* Selected day */
+.MuiPickersDay-root.Mui-selected {
+  background-color: #1976d2 !important;
+  color: white !important;
+}
+
+/* Hover effect */
+.MuiPickersDay-root:hover {
+  background-color: #e0e0e0 !important;
+}
+
+img {
+  z-index: 1000;
+  height: 250px;
+  width: 350px;
+}
+
+.custom-date-field {
+  color: white;
+}
+
+.icons {
+  display: inline-flex;
+  padding: 10px;
+  padding-bottom: 30px;
+  color: white;
+  position: relative;
+  left: 350px;
+}
+
+a {
+  color: white;
+}
+
+
+
+h1, h2 {
+  color: white;
+}
+
+div {
+  display: flexbox;
+}
+
+.photos {
+  margin-top: 0px;
+}
+
+#phone-dim {
+  gap: '1rem';
+}
+
+.border-review {
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
+
+.review-text {
+  border: 1px solid white;
+  background-color: beige;
+  border-radius: 12px;
+  padding: 13px;
+  font-size: 14px;
+  font-style: italic;
+  margin: 18px;
+  text-align: left;
+}
+
+.review-text-name {
+  font-size: 14px;
+  font-style: italic;
+  /* text-align: right; */
+  /* margin-right: 9px;
+  margin-top: 1px;
+  margin-bottom: -3px; */
+}
+
+
+@media only screen and (min-device-width : 320px ) and (max-device-width: 950px) {
+
+/* #root {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  } */
+
+body {
+    background-image: url('/country_outdoors.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .title {
+    color: white;
+    font-size: 28px;
+    z-index: 100;
+    text-align: center;
+  }
+  
+  .calendar-font {
+    color: white;
+  }
+  
+  .MuiPickersPopper-root {
+    z-index: 1500 !important;
+  }
+  
+  .date-picker {
+    overflow: visible !important;
+    position: relative !important;
+  }
+
+  .MuiInputBase-input {
+    background-color: white;         
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+  }
+
+#phone-dim {
+  padding: 20px;
+  margin-top: 50px;
+
+}
+.icons {
+position: relative;
+left: 80px;
+font-size: 26px;
+}
+
+img {
+  margin: -3.5px;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+} 
