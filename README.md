@@ -7,8 +7,9 @@
 ### - a checkin date picker
 ### - a checkout date picker
 ### - book button
+### - Stripe checkout with demo CC
 
-### Other features include a photo gallery of property and a dynamic user reviews section. Guests can post a review in the form and get a real-time update of there review.
+### Other features include a photo gallery carousel of property and a dynamic user reviews section. Guests can post a review in the form and get a real-time update of there review.
 
 ### Some other features I would add in the future:
   - [ ] a user signup, login
