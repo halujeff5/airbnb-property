@@ -1,6 +1,8 @@
 # **Airbnb-property**
 
-### This project is done as a demo for a client. Calendar through Material-UI was integrated with Stripe API and functionality includes:
+### This project is done as a demo for a client. This project was built using a Vite/React/TypeScript frontend and an ExpressJS backend with a PSQL database. 
+
+### Calendar through Material-UI was integrated with Stripe API and functionality includes:
 ### - all reservations from past to 1 year into future
 ### - a checkin date picker
 ### - a checkout date picker
