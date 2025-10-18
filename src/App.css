@@ -159,6 +159,10 @@ div {
   margin-top: 0px;
 }
 
+.gallery-dialog {
+  margin-bottom: 160px;
+}
+
 #phone-dim {
   gap: '1rem';
 }
