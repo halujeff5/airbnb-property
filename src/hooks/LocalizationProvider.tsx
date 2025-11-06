@@ -12,7 +12,7 @@ interface myContext {
 export const LocalizationContext = createContext<myContext | null>(null)
 
 
-export const LocalizationProvider =({children}) => {
+export const LocalizationProvider =({children} : any) => {
     
     const [checkinDate, setCheckinDate] = React.useState<Dayjs | string | null>('')
     const [checkoutDate, setCheckoutDate] = React.useState<Dayjs | string | null>('')

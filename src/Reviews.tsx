@@ -31,7 +31,7 @@ export const Reviews = () => {
         }, [setLoading]
     )
 
-    const handleSubmit = async (e) => { 
+    const handleSubmit = async (e: any) => { 
         e.preventDefault();
         console.log({name, message});
         try {
@@ -47,12 +47,12 @@ export const Reviews = () => {
         setMessage('')
     }
 
-    function handleChangeName(e) {
+    function handleChangeName(e: any) {
         e.preventDefault();
         setName(e.target.value)
     }
 
-    function handleChangeMessage(e) {
+    function handleChangeMessage(e: any ) {
         e.preventDefault();
         setMessage(e.target.value)
     }

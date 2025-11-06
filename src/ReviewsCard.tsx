@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-export default function ReviewsCard({ username, reviews }) {
+export default function ReviewsCard({ username, reviews}: any) {
 
     return (
         <>

@@ -17,7 +17,7 @@ const stripeKey = import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY
 
 const stripePromise = loadStripe(stripeKey || "pk_test_replace_me");
 
-function CurrencyFmt(cents, currency = "usd") {
+function CurrencyFmt(cents: GLfloat, currency = "usd") {
     return new Intl.NumberFormat("en-US", { style: "currency", currency }).format(cents / 100);
 }
 
@@ -52,7 +52,7 @@ export function CheckoutForm() {
 
     console.log('yes', quantity)
 
-    async function handleSubmit(e) {
+    async function handleSubmit(e: any) {
         e.preventDefault();
         setError("");
         if (!stripe || !elements) return;
@@ -112,7 +112,7 @@ export function CheckoutForm() {
 
             // clear card field
             cardElement.clear();
-        } catch (err) {
+        } catch (err: any) {
             console.error(err);
             setError(err.message || "Payment failed");
         }
